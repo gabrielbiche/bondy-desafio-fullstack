@@ -14,7 +14,8 @@ export const buildContext = async ({ event, context }: any) => {
   }
 
   let user = null
-  const authHeader = event.headers.Authorization || ''
+  const authHeader =
+    event.headers.authorization || event.headers.Authorization || ''
 
   if (authHeader.startsWith('Bearer ')) {
     const token = authHeader.split(' ')[1]
