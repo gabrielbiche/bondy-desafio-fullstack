@@ -9,7 +9,7 @@ O frontend utiliza React.js, GraphQL desenvolvida com Node.js (versão 18).
 
 Este sistema tem como objetivo permitir o gerenciamento e exibição de informações de usuários. 
 
-Funcionalidades Principais
+## Funcionalidades Principais
 
 - Autenticação de Usuários:
 - Exibição de Dados do Usuário:
