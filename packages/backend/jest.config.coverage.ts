@@ -79,7 +79,14 @@ export default {
   // ],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
-  // moduleNameMapper: {},
+  moduleNameMapper: {
+    '@common/(.*)': '<rootDir>/src/common/$1',
+    '@config/(.*)': '<rootDir>/src/config/$1',
+    '@graphql/(.*)': '<rootDir>/src/graphql/$1',
+    '@interfaces/(.*)': '<rootDir>/src/interfaces/$1',
+    '@migrations/(.*)': '<rootDir>/src/migrations/$1',
+    '@models/(.*)': '<rootDir>/src/models/$1',
+  },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],

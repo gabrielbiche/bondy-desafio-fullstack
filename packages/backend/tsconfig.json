@@ -16,7 +16,15 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@common/*": [ "src/common/*" ],
+      "@config/*": [ "src/config/*" ],
+      "@graphql/*": [ "src/graphql/*" ],
+      "@interfaces/*": [ "src/interfaces/*" ],
+      "@migrations/*": [ "src/migrations/*" ],
+      "@models/*": [ "src/models/*" ]
+    }
   },
   "include": [
     "**/*.ts",
