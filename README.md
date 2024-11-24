@@ -40,3 +40,22 @@ Criar um projeto frontend dentro da pasta packages/frontend:
 - O projeto deve se conectar com o backend e realizar as consultas via graphql;
 - Deve conter uma pagina de login, com campo de e-mail e senha;
 - Ao passar os dados corretamente o usuário deve ser direciona a uma pagina de boas-vindas;
+
+## Siga os passos abaixo para executar os projetos
+
+1. Renomeie o arquivo da raiz de ambos projetos chamado .env.example para .env.
+
+2. Inicie as dependências do projeto
+```
+yarn install
+```
+
+3. Executar o projeto do backend
+```
+yarn run start:backend
+```
+
+4. Executar o projeto do frontend
+```
+yarn run start:frontend
+```
